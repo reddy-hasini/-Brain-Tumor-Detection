@@ -1,0 +1,39 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Java compiled files
+*.class
+*.jar
+
+# Environment / secrets
+.env
+.env.*
+credentials/
+secrets/
+*.pem
+*.key
+
+# Datasets / medical images
+dataset/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Large/local model files
+model/
+
+# Personal / sensitive reports
+*MRI_Report.pdf
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
